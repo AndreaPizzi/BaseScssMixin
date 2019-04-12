@@ -1,7 +1,7 @@
 # BaseScssMixin
 A Base SCSS/SASS Mixin
 
-Line 19) Background Gradient
+Line 19) Background Gradient<br/>
 Line 35) Background Horizontal
 Line 51) Background Radial
 Line 67) Background Size
