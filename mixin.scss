@@ -833,3 +833,17 @@
   -o-transform: translateY($translateY);
   transform: translateY($translateY);
 }
+
+
+//----------------------------------
+
+// Convert PX To rem
+//
+// $base-size: 16; is teh covertion unit
+
+$base-size: 16;
+//Function to convert px value into rem
+//You can replace rem with any other value you want (rem is most preferred value for web)
+@function size($target, $context: $base-size) {
+    @return ($target / $context) * 1em;
+  }
